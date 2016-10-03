@@ -20,6 +20,10 @@ var appRoutes = [
     {
         path: 'heroes',
         component: heroes_component_1.HeroesComponent
+    },
+    {
+        path: 'charts',
+        component: chartsComponent
     }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);
